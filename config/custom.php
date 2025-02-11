@@ -17,7 +17,7 @@ return [
         'navGray' => "#797C94",
     ],
     'images' => [
-        'logo' => 'img/logos/logo-full-h.png',
+        'logo' => 'img/logos/logo-SVG.svg',
         'banner-desktop' => 'img/banner-desktop.png',
         'banner-mobile' => 'img/banner-mobile.png',
     ]
