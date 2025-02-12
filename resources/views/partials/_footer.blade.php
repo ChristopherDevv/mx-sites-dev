@@ -4,7 +4,7 @@
             <div class="w-full flex flex-col md:flex-row md:items-center justify-evenly pb-16">
                 <div class="flex flex-col items-center gap-6 md:max-w-[255px]">
                     <div class="justify-self-center self-center flex justify-center items-center h-20">
-                        <img src="img/logos/logo-full-wt.png" alt="Ícono del logo"
+                        <img src="{{ config('angy.images.logo') }}" alt="Ícono del logo"
                             class="object-contain h-full w-full" />
                     </div>
                     <div class="text-white opacity-50 text-5xl flex flex-row justify-evenly mb-6 md:mb-0 gap-8">

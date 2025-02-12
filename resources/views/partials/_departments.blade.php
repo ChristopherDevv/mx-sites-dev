@@ -4,7 +4,7 @@
         <h2 class="font-extrabold text-3xl lg:text-5xl">Our services</h2>
     </div>
 
-    @foreach (__('departments') as $card)
+    @foreach (config('angy.departments') as $card)
         <div class="flex items-center flex-col w-full {{ $loop->odd ? 'bg-grayWhite' : 'bg-white' }}">
             <div class="w-full md:w-9/12 py-10 px-4 md:px-0 max-w-[1000px] flex flex-col items-center gap-6 {{ $loop->odd ? 'md:flex-row' : 'md:flex-row-reverse' }}">
                 <div class="md:h-64 min-w-32 w-full h-48">

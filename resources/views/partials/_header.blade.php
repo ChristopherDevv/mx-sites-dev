@@ -2,7 +2,7 @@
     <!-- FIXED NAV -->
     <nav class="hidden md:flex flex-row justify-between items-center text-sm bg-white px-4 py-2 fixed z-50 w-full gap-2 lg:gap-4 shadow-md h-[90px]">
         <a href="#" class="h-10">
-            <img src="{{ config('custom.images.logo') }}" alt="Logo" class="object-contain w-full h-full" />
+            <img src="{{ config('angy.images.logo') }}" alt="Logo" class="object-contain w-full h-full" />
         </a>
         <div class="flex flex-row grow justify-center max-w-[1000px]">
             <div class="flex flex-row grow justify-center font-normal text-center text-navGray items-center lg:text-base">

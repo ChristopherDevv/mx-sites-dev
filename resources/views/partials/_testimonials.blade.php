@@ -4,7 +4,7 @@
             Reviews
         </h2>
         <div class="testimonial-container py-16 flex flex-col gap-8 md:flex-row sm:flex-wrap items-center md:items-start w-full justify-evenly">
-            @foreach (__('testimonials') as $testimonial)
+            @foreach ( config('angy.testimonials')  as $testimonial)
                 <div class="w-full md:w-[30%] min-w-[280px] bg-white rounded-3xl p-6 shadow-xl">
                     <div class="flex flex-col items-center gap-4">
                         <div class="h-32 w-32 rounded-full hidden">

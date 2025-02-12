@@ -3,7 +3,7 @@
     <div class="flex flex-col items-center w-[90%] md:w-9/12 py-16 text-white max-w-[1000px]">
         <h2 class="font-bold mb-10 text-2xl md:text-4xl">FAQs</h2>
         <div class="divide-y w-full">
-            @foreach (__('faqs') as $faq)
+            @foreach (config('angy.faqs') as $faq)
                 <div x-data="{ open: false}">
                     <div x-on:click="open = !open" class="flex justify-between py-6">
                         <div class="font-extrabold">
